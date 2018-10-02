@@ -6,4 +6,3 @@
 - Placeholders for `PhotoMapViewController` and `FullImageViewController`
 
     
-# Photot-Map_CodePath
