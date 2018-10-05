@@ -10,8 +10,16 @@ import UIKit
 
 class FullImageViewController: UIViewController {
 
+    @IBOutlet weak var photo: UIImageView!
+    
+    var photoImage: UIImage!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+       // if let picture = photoImage {
+        photo.image = photoImage
+       // }
 
         // Do any additional setup after loading the view.
     }
